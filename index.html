@@ -49,6 +49,7 @@
 
             if (estado == 'off'){
                 firebase.database().ref('cancela').set('on');
+                firebase.database().ref('teste').set('a');
                   
             }else{
                 firebase.database().ref('cancela').set('off');
